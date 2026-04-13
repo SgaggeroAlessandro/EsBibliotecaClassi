@@ -91,7 +91,7 @@ while (scelta != 6)
     }
     else if (scelta == 6)
     {
-        Console.WriteLine("Arrivederci!");
+        Console.WriteLine("Arrivederci");
     }
     else
     {

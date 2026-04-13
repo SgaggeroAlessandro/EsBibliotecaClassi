@@ -15,6 +15,11 @@ namespace EsClassi1
                 return titolo;
             }
         }
+        public Autore Autore { 
+            get { 
+                return autore;
+            }
+        }
         public int Anno { 
             get {
                 return anno;
@@ -32,7 +37,7 @@ namespace EsClassi1
             this.autore = autore;
             this.anno = anno;
             this.pagine = pagine;
-            autore.Aggiungi(this);
+            
         }
 
         public string Info()
